@@ -1,0 +1,39 @@
+body{
+    margin-top: 20%;
+    margin-bottom: 50%;
+    display:flex;
+    justify-content: center;
+    align-items: center; /* 垂直對齊 */
+    background-color: #dbb15b;
+}
+.back1{
+    width: 600px;
+    height: 600px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: #cdbb9c;
+    display:flex;
+    justify-content: center;
+    align-content: center; 
+    flex-wrap: wrap;
+}
+
+.text1{
+    text-align: center;
+    color: #724531;
+    font-size: 90px;
+    font-weight: bold;
+    text-shadow: 0.1em 0.06em 0.08em white;
+
+}
+.text2{
+    text-align: center;
+    margin-left: 3%;
+    margin-right: 3%;
+    color: #724531;
+    font-size: 80px;
+    font-weight: bold;
+
+}
