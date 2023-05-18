@@ -1,0 +1,145 @@
+body{
+    background-color: #dbb15b;
+    margin-top: 10%;
+}
+.back1{
+    margin: 50px auto;
+    width: 500px;
+    height: 300px;
+    padding: 50px;
+    background-color: #cdbb9c;
+    display:flex;
+    justify-content: center;
+    align-content: center; 
+    flex-wrap: wrap;
+}
+
+.text1{
+    text-align: center;
+    color: #724531;
+    font-size: 80px;
+    font-weight: bold;
+    text-shadow: 0.1em 0.06em 0.08em white;
+
+}
+.text2{
+    text-align: center;
+    margin-left: 3%;
+    margin-right: 3%;
+    color: #724531;
+    font-size: 50px;
+    font-weight: bold;
+
+}
+.harrypotter{
+    width: 400px; 
+    height:auto; 
+    display:block;
+    margin:50px auto;
+}
+
+ul.pagination{
+    margin: 0;
+    padding: 0;
+    display:flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+ul.pagination li{
+    display: inline;
+}
+ul.pagination li a{
+    background-color: white;
+    color: #724531;
+    font-weight: bold;
+    float: left;
+    width: 80px;
+    padding: 8px 8px;
+    margin: 3px;
+    text-decoration: none;
+    border-radius: 10px;
+}
+ul.pagination li a.active{
+    background-color: #724531;
+    color: white;
+    border-radius: 10px;
+}
+
+
+
+@media (max-width:500px){
+    /* 手機-螢幕寬度小於 500px, 套用這個區塊的 CSS */
+    .back1{
+        margin: 25px auto;
+        width: 250px;
+        height: 150px;
+        padding: 25px;
+        background-color: #cdbb9c;
+        display:flex;
+        justify-content: center;
+        align-content: center; 
+        flex-wrap: wrap;
+    }
+    .text1{
+        text-align: center;
+        color: #724531;
+        font-size: 40px;
+        font-weight: bold;
+        text-shadow: 0.1em 0.06em 0.08em white;
+    
+    }
+    .text2{
+        text-align: center;
+        margin-left: 3%;
+        margin-right: 3%;
+        color: #724531;
+        font-size: 25px;
+        font-weight: bold;
+    
+    }
+    .harrypotter{
+        width: 200px; 
+        height:auto; 
+        display:block;
+        margin:25px auto;
+    }
+    
+    /* 目錄 */
+    ul.pagination{
+        margin: 0;
+        padding: 0;
+        display:flex;
+        flex-direction:column;
+    }
+    ul.pagination li{
+        display: inline;
+    }
+    ul.pagination li a{
+        background-color: white;
+        color: #724531;
+        font-weight: bold;
+        font-size: 10px;
+        float: left;
+        width: 100px;
+        height: 20px;
+        padding: 8px 8px;
+        margin: 5px;
+        text-decoration: none;
+        border-radius: 10px;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    ul.pagination li a.active{
+        background-color: #724531;
+        color: white;
+        font-weight: bold;
+        font-size: 10px;
+        text-align: center;
+        border-radius: 10px;
+
+        text-align: center;
+    }
+}
